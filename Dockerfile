@@ -1,6 +1,6 @@
 FROM samis/dreamdaemon
 USER root
-RUN apt-get install git-core
+RUN apt-get -y install git-core
 USER dreamdaemon
 RUN git clone git@github.com:tgstation/-tg-station.git game
 WORKDIR /game/code/
