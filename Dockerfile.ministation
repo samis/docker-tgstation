@@ -1,6 +1,6 @@
 FROM samis/dreamdaemon
 USER root
-ENV DM_MAPFILE="tgstation2"
+ENV DM_MAPFILE="ministation"
 RUN apt-get -y install git-core
 RUN mkdir world; chown dreamdaemon world;
 USER dreamdaemon
